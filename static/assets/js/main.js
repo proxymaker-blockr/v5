@@ -27,7 +27,7 @@ loadCSS('https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icon
 });
 if(window.location.pathname === "/index.html" || window.location.pathname === "/") {
   console.log("[✔️] Index.html");
-  const options = ["Right-Click to access more features", "Set a custom background in settings.", "Tab Cloaking is highly recommended", "We trust in Your Data", "Noting is Logged", "Hosted on the best hardware!", "Do not share this link with anyone.", "Dont Share this link otherwise it will get blocked", "dont share", "", "Customize Doge by going to Settings > Themes", "dont share", "dont share", "dont share", "Wroten by cooljonny73", ];
+  const options = ["Your Ip Spoofs every refresh, anonymous browsing", "Your Ip Spoofs every refresh, anonymous browsing.", "Your Ip Spoofs every refresh, anonymous browsing", "Your Ip Spoofs every refresh, anonymous browsing", "Noting is Logged", "Your Ip Spoofs every refresh, anonymous browsing", "Your Ip Spoofs every refresh, anonymous browsing", "Your Ip Spoofs every refresh, anonymous browsing", "Https Injection", "", "Your Ip Spoofs every refresh, anonymous browsing", "Your Ip Spoofs every refresh, anonymous browsing", "Your Ip Spoofs every refresh, anonymous browsing", "Your Ip Spoofs every refresh, anonymous browsing", "Your Ip Spoofs every refresh, anonymous browsing", ];
 
   function getRandomOption() {
     const randomNumber = Math.floor(Math.random() * options.length);
